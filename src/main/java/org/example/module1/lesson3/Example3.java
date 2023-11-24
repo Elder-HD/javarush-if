@@ -1,4 +1,4 @@
-package org.example.modele1.lesson3;
+package org.example.module1.lesson3;
 
 public class Example3 {
     public static void main(String[] args) {

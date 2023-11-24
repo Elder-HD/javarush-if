@@ -1,4 +1,4 @@
-package org.example.modele1.lesson3;
+package org.example.module1.lesson3;
 
 import java.util.Scanner;
 
