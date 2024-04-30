@@ -9,8 +9,8 @@ import java.io.Writer;
 
 public class Example2 {
     public static void main(String[] args) {
-        File sourceFile = new File("src/main/resources/lesson24/example1.txt");
-        File targetFile = new File("src/main/resources/lesson24/destination2.txt");
+        File sourceFile = new File("src/main/resources/module1/lesson24/example1.txt");
+        File targetFile = new File("src/main/resources/module1/lesson24/destination2.txt");
         try (Reader reader = new FileReader(sourceFile);
              Writer writer = new FileWriter(targetFile, true)) {
             int b;

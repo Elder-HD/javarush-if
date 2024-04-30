@@ -5,7 +5,7 @@ import java.nio.file.Path;
 
 public class Example2 {
     public static void main(String[] args) {
-        String filename = "src/main/resources/module1.lesson26/data.txt";
+        String filename = "src/main/resources/module1/lesson26/data.txt";
 
         Path path = Path.of(filename);
 

@@ -6,7 +6,7 @@ import java.io.File;
 // implement recursive search in text files
 public class Example4 {
     public static void main(String[] args) {
-        File file = new File("src/main/resources/module1.lesson26/d");
+        File file = new File("src/main/resources/module1/lesson26/d");
         searchAllFiles(file);
     }
 

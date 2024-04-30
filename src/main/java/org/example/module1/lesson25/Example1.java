@@ -14,8 +14,8 @@ public class Example1 {
     public static void main(String[] args) {
         FileByteReaderWriter fileReaderWriter = new FileByteReaderWriter();
 
-        fileReaderWriter.copyFromFileToFile("src/main/resources/lesson25/example1.txt",
-                "src/main/resources/lesson25/destination1.txt");
+        fileReaderWriter.copyFromFileToFile("src/main/resources/module1/lesson25/example1.txt",
+                "src/main/resources/module1/lesson25/destination1.txt");
     }
 
 

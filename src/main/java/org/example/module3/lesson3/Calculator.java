@@ -1,7 +1,12 @@
 package org.example.module3.lesson3;
 
-public class Calculator {
-    public int add(int a, int b) {
+import lombok.Data;
+import lombok.Getter;
+
+
+class Calculator {
+
+    public int add (int a, int b) {
         return getAnInt(a, b);
     }
 
@@ -14,7 +19,6 @@ public class Calculator {
         if (divisor == 0) {
             throw new IllegalArgumentException("Divisor is zero");
         }
-
-        return division / divisor;
+        return division/divisor;
     }
 }
