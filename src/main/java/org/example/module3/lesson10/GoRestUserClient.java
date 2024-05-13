@@ -10,7 +10,6 @@ public interface GoRestUserClient {
 
     Response<User> createNewUser(User user);
 
-
     //TODO:https://gorest.co.in/
     Response<User> findUserById(Long id);
 
